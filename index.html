@@ -3,32 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Share a Thought - A human-centered, reflective, creative network for sharing thoughts, poetry, reflections, images, and melodies.">
+    <meta name="keywords" content="thoughts, poetry, reflection, creative network, community">
+    <meta name="author" content="Share a Thought">
     <title>Share a Thought</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Share a Thought</h1>
-    </header>
-    <section class="hero">
-        <h2>Your thoughts matter!</h2>
-        <p>Join us in sharing and discovering ideas.</p>
-    </section>
-    <section class="features">
-        <h3>Features</h3>
-        <ul>
-            <li>Share your thoughts with the community</li>
-            <li>Discover new ideas</li>
-            <li>Engage in meaningful conversations</li>
-        </ul>
-    </section>
-    <section class="philosophy">
-        <h3>Our Philosophy</h3>
-        <p>We believe every thought is worth sharing, and every voice deserves to be heard.</p>
-    </section>
-    <footer>
-        <p>&copy; 2023 Share a Thought. All rights reserved.</p>
-    </footer>
-    <script src="main.js"></script>
+    <div class="background-container"></div>
+    <div class="content-wrapper">
+        <div class="loading">
+            <div class="loader"></div>
+        </div>
+
+        <header class="hero">
+            <h1>Share a Thought</h1>
+            <p>A human-centered, reflective, creative network for sharing thoughts, poetry, reflections, images, and melodies.</p>
+            <a href="#signup" class="cta">Be among the first to join</a>
+        </header>
+
+        <main>
+            <section class="section parallax-element" id="how-it-works">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <i class="fas fa-feather-alt"></i>
+                        <h3>1. Share a Thought</h3>
+                        <p>Express your reflections, poetry, or ideas.</p>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>2. Add Layers</h3>
+                        <p>Enhance your thoughts with images, melodies, or reflections.</p>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-user-friends"></i>
+                        <h3>3. Connect</h3>
+                        <p>Engage with a community of thoughtful individuals.</p>
+                    </div>
+                    <div class="step">
+                        <i class="fas fa-mountain"></i>
+                        <h3>4. Reflect</h3>
+                        <p>Find inspiration and meaning in shared expressions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section parallax-element" id="why-it-matters">
+                <h2>Why It Matters</h2>
+                <p>Share a Thought is not just another platform. It’s a movement to foster authenticity, human connection, and thoughtful expression. Here, your words and creativity matter.</p>
+            </section>
+
+            <section class="testimonials section parallax-element">
+                <h2>Inspiration</h2>
+                <blockquote class="testimonial">“The unexamined life is not worth living.” – Socrates</blockquote>
+                <blockquote class="testimonial">“Poetry is when an emotion has found its thought and the thought has found words.” – Robert Frost</blockquote>
+            </section>
+
+            <section class="section parallax-element" id="signup">
+                <h2>Join Us</h2>
+                <p>Be among the first to share a thought. <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD9X9X9X9X9X9X9X9X9X9X9X9X9X9X9X9X9X9X9X9/viewform" target="_blank">Sign up here</a> to be notified when we launch.</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 Share a Thought. All rights reserved. | <a href="#">Privacy Policy</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
